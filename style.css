@@ -1,0 +1,98 @@
+body {
+  background-color: hsl(204, 43%, 93%);
+  font-family: "Karla", sans-serif;
+}
+
+h2, h5 {
+  font-weight: bold;
+}
+
+h2 {
+  color: hsl(179, 62%, 43%);
+  margin-bottom: 5%;
+}
+
+h5 {
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin-bottom: -5px;
+}
+
+.container {
+  margin-top: 5%;
+  width: 50%;
+}
+
+.box1 {
+  background-color: white;
+  padding: 5%;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+.box2 {
+  background-color: #2ab2af;
+  color: white;
+  padding: 5%;
+  border-bottom-left-radius: 5px;
+}
+
+.box3 {
+  background-color: #4abebd;
+  color: white;
+  padding: 5%;
+  border-bottom-right-radius: 5px;
+}
+
+.box2-price-p {
+  height: 2.5rem;
+  line-height: 1.5;
+  margin-bottom: 2rem;
+}
+
+.span1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-right: 5%;
+  vertical-align: middle;
+}
+
+.span2 {
+  vertical-align: middle;
+}
+
+.box2-p {
+  font-weight: bolder;
+}
+
+.btn {
+  background-color: hsl(71, 73%, 54%);
+  margin-top: 2.4rem;
+}
+
+.box1 h5 {
+  color: hsl(71, 73%, 54%);
+}
+
+.box1 p {
+  color: hsl(218, 22%, 67%);
+}
+
+.attribution {
+  padding-top: 50px;
+  text-align: center;
+}
+
+@media (max-width: 767px) {
+  .box2 {
+    border-bottom-left-radius: 0;
+  }
+
+  .box3 {
+    border-radius: 0 0 5px 5px;
+  }
+}
